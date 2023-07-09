@@ -1,3 +1,4 @@
+/* Reset some default styles provided by the browser */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -24,4 +25,44 @@ body {
     margin-top: 40px; /* add some top margin */
 }
 
-/* other styles remain the same */
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0077cc; /* A nice blue color for headers */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0077cc; /* Same blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px; /* add some top margin to the footer */
+    text-align: center;
+}
