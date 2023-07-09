@@ -1,0 +1,62 @@
+/* Reset some default styles provided by the browser */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    width: 80%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* A white background with some opacity */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* A subtle shadow to lift the content off the background */
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0077cc; /* A nice blue color for headers */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0077cc; /* Same blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 50px;
+}
